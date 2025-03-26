@@ -1,0 +1,16 @@
+[project]
+name = "sto2rnass"
+version = "0.1.0"
+description = "CLI tool to extract and project dot-bracket RNA structures from Stockholm .sto files."
+readme = "README.md"
+requires-python = ">=3.7"
+authors = [{name = "Mario R Mestre", email = "mario.mestre at bio.ku.dk"}]
+dependencies = []
+
+[project.scripts]
+extract-rna-structure = "extract_rna_structure.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
