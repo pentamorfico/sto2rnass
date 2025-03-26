@@ -8,7 +8,7 @@ authors = [{name = "Mario R Mestre", email = "mario.mestre@bio.ku.dk"}]
 dependencies = []
 
 [project.scripts]
-extract-rna-structure = "extract_rna_structure.cli:main"
+sto2rnass = "sto2rnass.cli:main"
 
 [build-system]
 requires = ["setuptools>=61"]
